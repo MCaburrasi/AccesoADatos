@@ -1,0 +1,424 @@
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirJSONaXML.java:10: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 6 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirXMLaJSON.java:6: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 8 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:8: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+                                                      ^
+Error on line 9 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:9: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+                                                      ^
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:10: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+                                                      ^
+Error on line 12 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:12: error: cannot find symbol
+@JacksonXmlRootElement(localName = "CasaXML")
+ ^
+  symbol: class JacksonXmlRootElement
+Error on line 5 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Persona.java:5: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+                                                      ^
+Error on line 7 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainDeserializarPersonas.java:7: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 5 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainSerializarPersonas.java:5: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 6 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MapeoXML.java:6: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:10: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.CsvToBean;
+                       ^
+Error on line 11 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:11: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.CsvToBeanBuilder;
+                       ^
+Error on line 3 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\Persona.java:3: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.CsvBindByName;
+                       ^
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:10: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.StatefulBeanToCsv;
+                       ^
+Error on line 11 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:11: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.StatefulBeanToCsvBuilder;
+                       ^
+Error on line 3 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:3: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariConfig;
+                        ^
+Error on line 4 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:4: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariDataSource;
+                        ^
+Error on line 9 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:9: error: cannot find symbol
+	private static HikariDataSource dataSource;
+	               ^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.PoolMySQL
+Error on line 34 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:34: error: cannot find symbol
+	public static HikariDataSource getDataSource() {
+	              ^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.PoolMySQL
+Error on line 5 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:5: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariDataSource;
+                        ^
+Error on line 6 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:6: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariPoolMXBean;
+                        ^
+Error on line 16 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:16: error: cannot find symbol
+	@JacksonXmlProperty(localName = "persona") //para XML
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Casa
+Error on line 17 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:17: error: cannot find symbol
+	@JacksonXmlElementWrapper(useWrapping = false) // Para XML, sin envolver la lista
+	 ^
+  symbol:   class JacksonXmlElementWrapper
+  location: class ud1.mapeoAnotacionesJSON_XML.Casa
+Error on line 21 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:21: error: cannot find symbol
+	@JacksonXmlProperty(localName = "direccion")   
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Casa
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Persona.java:10: error: cannot find symbol
+	@JacksonXmlProperty(localName = "nombre")
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Persona
+Error on line 14 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Persona.java:14: error: cannot find symbol
+	@JacksonXmlProperty(localName = "edad")
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Persona
+Error on line 7 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\Persona.java:7: error: cannot find symbol
+	@CsvBindByName(column = "Nombre de la Persona") // Mapea este campo al CSV	    
+	 ^
+  symbol:   class CsvBindByName
+  location: class ud1.mapeoCSV.Persona
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\Persona.java:10: error: cannot find symbol
+	@CsvBindByName(column = "Edad de la Persona") // Mapea este campo al CSV
+	 ^
+  symbol:   class CsvBindByName
+  location: class ud1.mapeoCSV.Persona
+Error on line 23 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirJSONaXML.java:23: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirJSONaXML
+Error on line 23 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirJSONaXML.java:23: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		                          ^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirJSONaXML
+Error on line 14 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirXMLaJSON.java:14: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirXMLaJSON
+Error on line 14 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirXMLaJSON.java:14: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		                          ^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirXMLaJSON
+Error on line 51 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainDeserializarPersonas.java:51: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainDeserializarPersonas
+Error on line 51 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainDeserializarPersonas.java:51: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		                          ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainDeserializarPersonas
+Error on line 30 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainSerializarPersonas.java:30: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+        ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainSerializarPersonas
+Error on line 30 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainSerializarPersonas.java:30: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+                                  ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainSerializarPersonas
+Error on line 15 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MapeoXML.java:15: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+        ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MapeoXML
+Error on line 15 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MapeoXML.java:15: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+                                  ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MapeoXML
+Error on line 17 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:17: error: cannot find symbol
+		CsvToBean<Persona> csvToBean = new CsvToBeanBuilder<Persona>(br).withType(Persona.class)
+		^
+  symbol:   class CsvToBean
+  location: class ud1.mapeoCSV.DeserializarCSV
+Error on line 17 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:17: error: cannot find symbol
+		CsvToBean<Persona> csvToBean = new CsvToBeanBuilder<Persona>(br).withType(Persona.class)
+		                                   ^
+  symbol:   class CsvToBeanBuilder
+  location: class ud1.mapeoCSV.DeserializarCSV
+Error on line 29 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:29: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(fw).build();
+		^
+  symbol:   class StatefulBeanToCsv
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 29 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:29: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(fw).build();
+		                                           ^
+  symbol:   class StatefulBeanToCsvBuilder
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 44 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:44: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(writer).build();
+		^
+  symbol:   class StatefulBeanToCsv
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 44 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:44: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(writer).build();
+		                                           ^
+  symbol:   class StatefulBeanToCsvBuilder
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 12 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:12: error: cannot find symbol
+		HikariConfig config = new HikariConfig();
+		^
+  symbol:   class HikariConfig
+  location: class ud2.pool.PoolMySQL
+Error on line 12 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:12: error: cannot find symbol
+		HikariConfig config = new HikariConfig();
+		                          ^
+  symbol:   class HikariConfig
+  location: class ud2.pool.PoolMySQL
+Error on line 26 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:26: error: cannot find symbol
+		dataSource = new HikariDataSource(config);
+		                 ^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.PoolMySQL
+Error on line 21 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:21: error: cannot find symbol
+		HikariDataSource dataSource = PoolMySQL.getDataSource();
+		^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.UsoPoolMySQL
+Error on line 22 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:22: error: cannot find symbol
+		HikariPoolMXBean poolStats = dataSource.getHikariPoolMXBean();
+		^
+  symbol:   class HikariPoolMXBean
+  location: class ud2.pool.UsoPoolMySQL
+Error on line -1 in Note: C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\manejoficheros\act11.java uses or overrides a deprecated API.
+Error on line -1 in Note: Recompile with -Xlint:deprecation for details.
+Error on line -1 in Note: C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\ficherosJSON\LeerFicheroJSON.java uses unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirJSONaXML.java:10: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 6 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirXMLaJSON.java:6: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 8 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:8: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+                                                      ^
+Error on line 9 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:9: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+                                                      ^
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:10: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+                                                      ^
+Error on line 12 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:12: error: cannot find symbol
+@JacksonXmlRootElement(localName = "CasaXML")
+ ^
+  symbol: class JacksonXmlRootElement
+Error on line 5 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Persona.java:5: error: package com.fasterxml.jackson.dataformat.xml.annotation does not exist
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+                                                      ^
+Error on line 7 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainDeserializarPersonas.java:7: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 5 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainSerializarPersonas.java:5: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 6 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MapeoXML.java:6: error: package com.fasterxml.jackson.dataformat.xml does not exist
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+                                           ^
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:10: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.CsvToBean;
+                       ^
+Error on line 11 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:11: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.CsvToBeanBuilder;
+                       ^
+Error on line 3 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\Persona.java:3: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.CsvBindByName;
+                       ^
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:10: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.StatefulBeanToCsv;
+                       ^
+Error on line 11 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:11: error: package com.opencsv.bean does not exist
+import com.opencsv.bean.StatefulBeanToCsvBuilder;
+                       ^
+Error on line 3 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:3: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariConfig;
+                        ^
+Error on line 4 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:4: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariDataSource;
+                        ^
+Error on line 9 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:9: error: cannot find symbol
+	private static HikariDataSource dataSource;
+	               ^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.PoolMySQL
+Error on line 34 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:34: error: cannot find symbol
+	public static HikariDataSource getDataSource() {
+	              ^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.PoolMySQL
+Error on line 5 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:5: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariDataSource;
+                        ^
+Error on line 6 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:6: error: package com.zaxxer.hikari does not exist
+import com.zaxxer.hikari.HikariPoolMXBean;
+                        ^
+Error on line 16 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:16: error: cannot find symbol
+	@JacksonXmlProperty(localName = "persona") //para XML
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Casa
+Error on line 17 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:17: error: cannot find symbol
+	@JacksonXmlElementWrapper(useWrapping = false) // Para XML, sin envolver la lista
+	 ^
+  symbol:   class JacksonXmlElementWrapper
+  location: class ud1.mapeoAnotacionesJSON_XML.Casa
+Error on line 21 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Casa.java:21: error: cannot find symbol
+	@JacksonXmlProperty(localName = "direccion")   
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Casa
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Persona.java:10: error: cannot find symbol
+	@JacksonXmlProperty(localName = "nombre")
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Persona
+Error on line 14 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\Persona.java:14: error: cannot find symbol
+	@JacksonXmlProperty(localName = "edad")
+	 ^
+  symbol:   class JacksonXmlProperty
+  location: class ud1.mapeoAnotacionesJSON_XML.Persona
+Error on line 7 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\Persona.java:7: error: cannot find symbol
+	@CsvBindByName(column = "Nombre de la Persona") // Mapea este campo al CSV	    
+	 ^
+  symbol:   class CsvBindByName
+  location: class ud1.mapeoCSV.Persona
+Error on line 10 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\Persona.java:10: error: cannot find symbol
+	@CsvBindByName(column = "Edad de la Persona") // Mapea este campo al CSV
+	 ^
+  symbol:   class CsvBindByName
+  location: class ud1.mapeoCSV.Persona
+Error on line 23 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirJSONaXML.java:23: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirJSONaXML
+Error on line 23 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirJSONaXML.java:23: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		                          ^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirJSONaXML
+Error on line 14 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirXMLaJSON.java:14: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirXMLaJSON
+Error on line 14 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\conversionFicheros\ConvertirXMLaJSON.java:14: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		                          ^
+  symbol:   class XmlMapper
+  location: class ud1.conversionFicheros.ConvertirXMLaJSON
+Error on line 51 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainDeserializarPersonas.java:51: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainDeserializarPersonas
+Error on line 51 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainDeserializarPersonas.java:51: error: cannot find symbol
+		XmlMapper xmlMapper = new XmlMapper();
+		                          ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainDeserializarPersonas
+Error on line 30 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainSerializarPersonas.java:30: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+        ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainSerializarPersonas
+Error on line 30 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MainSerializarPersonas.java:30: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+                                  ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MainSerializarPersonas
+Error on line 15 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MapeoXML.java:15: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+        ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MapeoXML
+Error on line 15 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoAnotacionesJSON_XML\MapeoXML.java:15: error: cannot find symbol
+        XmlMapper xmlMapper = new XmlMapper();
+                                  ^
+  symbol:   class XmlMapper
+  location: class ud1.mapeoAnotacionesJSON_XML.MapeoXML
+Error on line 17 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:17: error: cannot find symbol
+		CsvToBean<Persona> csvToBean = new CsvToBeanBuilder<Persona>(br).withType(Persona.class)
+		^
+  symbol:   class CsvToBean
+  location: class ud1.mapeoCSV.DeserializarCSV
+Error on line 17 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\DeserializarCSV.java:17: error: cannot find symbol
+		CsvToBean<Persona> csvToBean = new CsvToBeanBuilder<Persona>(br).withType(Persona.class)
+		                                   ^
+  symbol:   class CsvToBeanBuilder
+  location: class ud1.mapeoCSV.DeserializarCSV
+Error on line 29 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:29: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(fw).build();
+		^
+  symbol:   class StatefulBeanToCsv
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 29 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:29: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(fw).build();
+		                                           ^
+  symbol:   class StatefulBeanToCsvBuilder
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 44 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:44: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(writer).build();
+		^
+  symbol:   class StatefulBeanToCsv
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 44 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\mapeoCSV\SerializarCSV.java:44: error: cannot find symbol
+		StatefulBeanToCsv<Persona> beanToCsv = new StatefulBeanToCsvBuilder<Persona>(writer).build();
+		                                           ^
+  symbol:   class StatefulBeanToCsvBuilder
+  location: class ud1.mapeoCSV.SerializarCSV
+Error on line 12 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:12: error: cannot find symbol
+		HikariConfig config = new HikariConfig();
+		^
+  symbol:   class HikariConfig
+  location: class ud2.pool.PoolMySQL
+Error on line 12 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:12: error: cannot find symbol
+		HikariConfig config = new HikariConfig();
+		                          ^
+  symbol:   class HikariConfig
+  location: class ud2.pool.PoolMySQL
+Error on line 26 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\PoolMySQL.java:26: error: cannot find symbol
+		dataSource = new HikariDataSource(config);
+		                 ^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.PoolMySQL
+Error on line 21 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:21: error: cannot find symbol
+		HikariDataSource dataSource = PoolMySQL.getDataSource();
+		^
+  symbol:   class HikariDataSource
+  location: class ud2.pool.UsoPoolMySQL
+Error on line 22 in C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud2\pool\UsoPoolMySQL.java:22: error: cannot find symbol
+		HikariPoolMXBean poolStats = dataSource.getHikariPoolMXBean();
+		^
+  symbol:   class HikariPoolMXBean
+  location: class ud2.pool.UsoPoolMySQL
+Error on line -1 in Note: C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\manejoficheros\act11.java uses or overrides a deprecated API.
+Error on line -1 in Note: Recompile with -Xlint:deprecation for details.
+Error on line -1 in Note: C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\src\main\java\ud1\ficherosJSON\LeerFicheroJSON.java uses unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
