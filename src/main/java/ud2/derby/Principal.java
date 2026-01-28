@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		pruebamysql();
-		pruebamysql2();
+		//pruebamysql2();
 	}
 
 	public static void pruebamysql2() {
@@ -56,7 +56,7 @@ public class Principal {
 			Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
 
 			// Establecemos la conexion con la BD
-			Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/empresa", "Caburrasi", "u1d2t3c4");
+			Connection conexion = DriverManager.getConnection("jdbc:derby:C:/Users/Marcos/Documents/Derby/bin/MyDb", "", "");
 
 			// Preparamos la consulta
 			Statement sentencia = conexion.createStatement();

@@ -8,6 +8,9 @@
       </list>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url="http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2025.2/extResources/41526227_hibernate-reverse-engineering-3.0.dtd" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

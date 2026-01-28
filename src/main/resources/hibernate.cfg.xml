@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--  Datos necesarios para la conexión con la BD  -->
+        <!--  deprecated
+                <property name="hibernate.dialect"> org.hibernate.dialect.MySQLDialect </property>
+
+                <property name="hibernate.connection.driver_class"> com.mysql.jdbc.Driver </property>
+                -->
+        <property name="hibernate.connection.url"> jdbc:mysql://localhost:3306/empresahibernate?zeroDateTimeBehavior=convertToNull </property>
+        <property name="hibernate.connection.username"> root </property>
+        <property name="hibernate.connection.password"> root </property>
+        <!--  Configuración de algunos parámetros de Hibernate -->
+        <property name="hibernate.show_sql">true</property>
+        <!--<property name="hibernate.query.factory_class">org.hibernate.hql.internal.classic.ClassicQueryTranslatorFactory</property>-->
+        <!--                  List of XML mapping files                 -->
+        <mapping resource="ud3/pruebalistado/clases/Empleados.hbm.xml"/>
+        <mapping resource="ud3/pruebalistado/clases/Departamentos.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

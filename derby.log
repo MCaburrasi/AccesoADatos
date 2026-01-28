@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
-Wed Dec 03 13:24:54 UTC 2025:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-019a-e463-2389-000006d3dcb0 
-on database directory C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven\empresa with class loader com.intellij.database.remote.jdbc.impl.JdbcClassLoader$JdbcClassLoaderImpl@3cd60647 
-Loaded from file:/C:/Users/Marcos/AppData/Roaming/JetBrains/IntelliJIdea2025.2/jdbc-drivers/Apache%20Derby/10.17.1.0/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.jar
-java.vendor=JetBrains s.r.o.
-java.runtime.version=21.0.8+1-b1038.72
+Mon Jan 12 14:10:22 CET 2026:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-019b-b254-366c-0000074e3cd0 
+on database directory C:\Users\Marcos\Documents\Derby\bin\MyDb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Marcos/.m2/repository/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=24.0.2+12-54
 user.dir=C:\Users\Marcos\Documents\2º DAM\Acceso a Datos\accesodatosmaven
 os.name=Windows 10
 os.arch=amd64

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/ud2/Act2.java" value="d3421443-a7d7-4690-9cc7-9408f26c69f1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ud2/derby/Principal.java" value="a591141c-c4d3-4861-8034-cedd3275fc12" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ud2/derby/crearBD-empresa.sql" value="a591141c-c4d3-4861-8034-cedd3275fc12" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ud2/derby/poblarBD-empresa.sql" value="a591141c-c4d3-4861-8034-cedd3275fc12" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/scripts/TablasEmpleadosDepartamentosMySQL_Unidad3.sql" value="d3421443-a7d7-4690-9cc7-9408f26c69f1" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/scripts/TablasEmpleadosDepartamentosORACLE_Unidad3.sql" value="d3421443-a7d7-4690-9cc7-9408f26c69f1" />
+  </component>
+</project>
